@@ -1,0 +1,60 @@
+/*!
+ * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Lato","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-weight: 700;
+}
+
+
+.searchcontainer{
+   border: 1px solid red;
+   background: #eee;
+   width: 90%;
+   height: 1200px;
+   padding: 5px 5px 5px 5px;
+   display: flex;
+   justify-content: center;
+   flex-direction: row;
+}
+
+.imagenav {
+  height: 100%;
+  width: 0;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #F3F3EF;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+
+.spanStyle{
+	font-size:20px;
+    cursor:pointer;
+	text-color: #90AF83;
+    background-color: #F3F3EF;
+    text-align: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
