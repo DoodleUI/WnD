@@ -1,14 +1,17 @@
+# WnD: Faster App Screen Search via Word + Doodle
+
 # Index all texts in Elasticsearch
-1. Extract the "curatedtexts" zip file located in the TextExtraction folder.
+1. Extract the [curatedtexts](TextExtraction/curatedtexts) zip file located in the TextExtraction folder.
 2. Install Elasticsearch.
-3. Run the ElasticWriter.py script located in the TextExtraction folder.
-4. Place the Synonym.txt file into the config folder of your Elasticsearch installation.
-5. Download the [dictionary file](https://drive.google.com/file/d/1LoZbn8y5_xSeBbvipsd--7IqwuSvJQL4/edit) and put it in the similarUI folder 
-6. Download the [dictionary file](https://drive.google.com/file/d/1WtiIYpwYWNSSEQk7iLHhK7lJdkmNOcu9) and put it in the DragAndDrop folder
+3. Run the [ElasticWriter.py](TextExtraction/Synonym.txt) and change the data_folder in the script accordingly. 
+4. Place the [Synonym.txt](TextExtraction/Synonym.txt) file into the config folder of your Elasticsearch installation.
+
+# Downloads
+1. Download the [dictionary file](https://drive.google.com/file/d/1LoZbn8y5_xSeBbvipsd--7IqwuSvJQL4/edit) and put it in the similarUI folder 
+2. Download the [dictionary file](https://drive.google.com/file/d/1WtiIYpwYWNSSEQk7iLHhK7lJdkmNOcu9) and put it in the DragAndDrop folder
 
 
-# PSText
-It's a python project. 
+
 # Dependencies-
 1. Flask
 2. Tensorflow 1.15
